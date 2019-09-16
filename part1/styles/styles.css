@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+    background-color: #ededed;
+}
+
+h3{
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+p:first-of-type:first-letter{
+    font-size: 30px;
+}
+
+.solution::first-line{
+    color: red;
+    font-weight: bold;
+}
+
+#testimonial1, #testimonial2{
+    font-style: italic;
+    margin-left: 50px;
+}
+
+a[href^="http"]:link{
+    color: aqua;
+}
+
+a[href^="http"]:visited{
+    color: grey;
+}
+
+a[href^="http"]:hover{
+    color: red;
+}
+
+a[href^="http"]:active{
+    color: green;
+}
+
+ul{
+    list-style: none;
+}
+
+li:first-child{
+    color: blue;
+}
+
+li:last-child{
+    color: red;
+}
